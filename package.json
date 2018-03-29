@@ -1,6 +1,6 @@
 {
   "name": "isnt-thirteen",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Check if a number is not equal to 13",
   "main": "index.js",
   "scripts": {
