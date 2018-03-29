@@ -11,7 +11,7 @@ const isNot = (x) => {
 			thirteen: () => !isThirteen(x).returning.thirteen()
 		},
 		not: {
-			thirteen: () => !isThirteen(x).not.thirteen(x)
+			thirteen: () => !isThirteen(x).not.thirteen()
 		},
 		divisible: {
 			by: {
