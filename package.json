@@ -1,5 +1,5 @@
 {
-  "name": "is-not-thirteen",
+  "name": "isnt-thirteen",
   "version": "1.0.0",
   "description": "Check if a number is not equal to 13",
   "main": "index.js",
