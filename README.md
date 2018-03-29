@@ -1,5 +1,5 @@
 
-# is-not-thirteen
+# isnt-thirteen
 
 An npm package to check if a number is not equal to 13.
 
