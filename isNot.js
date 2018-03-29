@@ -47,7 +47,18 @@ const isNot = (x) => {
 		dividedby: (y) => !isThirteen(x).dividedby(y),
 		canSpell: {
 			thirteen: () => !isThirteen(x).canSpell.thirteen()
-		}
+		},
+        anagramOf: {
+            thirteen: () => !isThirteen(x).anagramOf.thirteen()
+        },
+        backwards: {
+            thirteen: () => !isThirteen(x).backwards.thirteen()
+        },
+        base: (y) => {
+            return {
+                thirteen: () => !isThirteen(x).base(y).thirteen()
+            }
+        }
 	}
 }
 
